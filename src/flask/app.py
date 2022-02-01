@@ -916,7 +916,7 @@ class Flask(Scaffold):
         from werkzeug.serving import run_simple
 
         try:
-            run_simple(t.cast(str, host), port, self, **options)
+            run_simple(t.cast(host, str), port, self, **options)
         finally:
             # reset the first request information if the development server
             # reset normally.  This makes it possible to restart the server
