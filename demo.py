@@ -16,6 +16,9 @@ class K(A):
         print('inside class K')
 
         
+        
+        
+        
 class C(B):
     def foo(self):
         print('inside class C')
