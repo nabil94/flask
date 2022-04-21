@@ -20,9 +20,6 @@ class C(B):
         print('inside bar')
 
 
-def buzz():
-    ...
-
 
 def driver():
     a = A()
