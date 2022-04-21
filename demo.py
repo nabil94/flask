@@ -4,6 +4,12 @@ class A:
     def foo(self):
         buzz()
         print('inside class A')
+        
+class A1:
+    def foo(self):
+        buzz()
+        print('inside class A')
+
 
 class B(A):
     def foo(self):
