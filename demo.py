@@ -24,3 +24,6 @@ class C(B):
 def driver():
     a = A()
     a.foo()
+    
+def plus(x):
+    return x+1
