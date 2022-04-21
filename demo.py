@@ -48,3 +48,5 @@ def minus(x):
 def mul(x, y):
     return x*y
 
+def div(a,b,c):
+    return (a*b)/c
