@@ -42,6 +42,9 @@ def driver():
 def plus(x):
     return x+1
 
+def Plus(x):
+    return x+11
+
 def minus(x):
     return x-1
 
