@@ -21,6 +21,14 @@ class C(B):
     def bar(self):
         self.foo()
         print('inside bar')
+        
+class C1(B):
+    def foo(self):
+        print('inside class C')
+
+    def bar(self):
+        self.foo()
+        print('inside bar')
 
 def driver():
     a = A()
