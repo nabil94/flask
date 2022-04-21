@@ -39,8 +39,6 @@ def driver():
 def plus(x):
     return x+1
 
-
-
 def minus(x):
     return x-1
 
