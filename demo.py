@@ -25,6 +25,10 @@ def driver():
     a = A()
     a.foo()
     
+def driver1():
+    a = A()
+    a.foo()
+    
 def plus(x):
     return x+1
 
