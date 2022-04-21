@@ -18,8 +18,7 @@ class B(A):
 class K(A):
     def foo(self):
         print('inside class K')
- 
-        
+         
 class C(B):
     def foo(self):
         print('inside class C')
