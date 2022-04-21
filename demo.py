@@ -14,7 +14,6 @@ class A1:
 class B(A):
     def foo(self):
         print('inside class B')
-
      
         
 class K(A):
