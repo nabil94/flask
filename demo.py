@@ -22,8 +22,6 @@ class C(B):
         self.foo()
         print('inside bar')
 
-
-
 def driver():
     a = A()
     a.foo()
