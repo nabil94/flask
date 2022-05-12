@@ -889,6 +889,14 @@ def shell_command():
     startup = os.environ.get("PYTHONSTARTUP")
     if startup and os.path.isfile(startup):
         with open(startup, "r") as f:
+            '''
+            ***************** OpenRefactory Warning *****************
+            Possible Dynamic Code Execution!
+            Path:
+            	File: cli.py, Line: 892
+            		eval(compile(f.read(), startup, "exec"), ctx)
+            		Tainted information is used in a sink.
+            '''
             eval(compile(f.read(), startup, "exec"), ctx)
 
     ctx.update(app.make_shell_context())
